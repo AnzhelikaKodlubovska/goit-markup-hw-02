@@ -1,5 +1,6 @@
 :root {
   --color-text: #2e2f42;
+  --color-link-foot: #f4f4fd;
 }
 
 ul {
@@ -19,11 +20,12 @@ ul {
 
 .link {
   display: flex;
+  font-weight: 800;
   align-items: center;
   font-size: 18px;
-  font-weight: 800;
+  font-family: 'Roboto';
   text-decoration: none;
-  color: var(color-text);
+  color: #2e2f42;
   margin-top: 24px;
   margin-left: 156px;
   margin-right: 76px;
@@ -38,10 +40,10 @@ ul {
 }
 
 .menu-list1 a {
-  font-family: "Roboto", sans-serif; /* исправлено */
-  font-size: 16px; /* добавлен размер */
+  font-family: 'Roboto';
+  font-size: 16px;
   font-weight: 500;
-  color: var(--color-text);
+  color: #2e2f42;
   text-decoration: none;
   padding-right: 40px;
 }
@@ -56,9 +58,10 @@ ul {
 }
 
 .menu-list2 a {
-  font-family: "Roboto", sans-serif; /* исправлено */
-  font-size: 16px; /* добавлен размер */
-  color: var(--color-text);
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #2e2f42;
   text-decoration: none;
   padding-right: 40px;
 }
@@ -71,22 +74,24 @@ ul {
   display: flex;
 }
 
-.novigation a {
+.novigation button {
   text-decoration: none;
   color: #4d5ae5;
   padding-right: 24px;
+  cursor: pointer;
   padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
-  font-family: "Roboto", sans-serif; /* исправлено */
+  font-family: 'Roboto'; /* исправлено */
   border: 1px solid #e7e9fc; /* исправлено */
   text-align: center;
+  font-weight: 500;
   background-color: #f4f4fd;
   margin: 0 12px;
   border-radius: 3px;
 }
 
-.novigation a:hover {
+.novigation button:hover {
   color: white;
   background-color: #404bbf;
 }
@@ -120,6 +125,7 @@ ul {
   grid-template-columns: repeat(3, 1fr);
   display: grid;
   gap: 24px;
+  border: 1px #e7e9fc;
 }
 
 .foot {
@@ -133,16 +139,47 @@ ul {
   height: 112px;
 }
 
-.link2 {
+.our-diversity h3 {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.our-diversity p {
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.our-diversity .link2 {
   display: flex;
   align-items: center;
   font-size: 18px;
   font-weight: 800;
+  font-family: 'Raleway';
   text-decoration: none;
-  color: white;
+  color: #f4f4fd;
 }
 
 .text-footer {
   display: flex;
-  color: white;
+  color: #f4f4fd;
+  font-weight: 400;
+}
+
+.foot .link2 {
+  text-decoration: none;
+  color: #f4f4fd;
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.foot .text-footer {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }

@@ -30,6 +30,9 @@ ul {
   margin-left: 156px;
   margin-right: 76px;
   margin-bottom: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .menu-list1 {
@@ -96,7 +99,7 @@ ul {
   background-color: #404bbf;
 }
 
-.nav-list {
+.navlist {
   display: flex;
   font-size: 14px;
 }
@@ -172,7 +175,7 @@ ul {
 .foot .link2 {
   text-decoration: none;
   color: #f4f4fd;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
 }

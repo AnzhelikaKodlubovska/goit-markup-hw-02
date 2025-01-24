@@ -46,9 +46,30 @@ ul {
 span.logo {
   color: #4d5ae5;
 }
+
+.button-all {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.button-all:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.button-all:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
 .menu-list1 {
   display: flex;
-
   justify-content: center;
   align-items: center;
   margin-right: 332px;
@@ -79,8 +100,8 @@ span.logo {
   padding-right: 40px;
 }
 
-.novigation {
-  margin-top: 96px;
+.novigation-list {
+  margin-top: 168px;
   margin-bottom: 72px;
   margin-left: 427px;
   margin-right: 427px;
@@ -132,8 +153,9 @@ span.logo {
   margin-right: 24px;
 }
 
-.our-diversity {
+.list {
   display: flex;
+  list-style: none;
   grid-template-columns: repeat(3, 1fr);
   display: grid;
   gap: 24px;

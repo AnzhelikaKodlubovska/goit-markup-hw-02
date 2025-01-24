@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -102,7 +102,7 @@ ul {
   background-color: #404bbf;
 }
 
-.navlist {
+.list {
   display: flex;
   font-size: 14px;
 }
